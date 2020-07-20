@@ -36,6 +36,8 @@
 .hache.tres {
     border: 3px solid yellow;
     border-top-left-radius: 80%;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
     height: 250px;
     width: 33px;
     top: -30px;
@@ -45,13 +47,21 @@
     -o-transform: scale(1) rotate(85deg) translateX(0px) skewX(20deg);
     -ms-transform: scale(1) rotate(85deg) translateX(0px) skewX(20deg);
     transform: scale(1) rotate(88deg) translateX(0px) skewX(20deg);
-    -webkit-transition: background 1700ms linear;
-    -moz-transition: background 1700ms linear;
-    -ms-transition: background 1700ms linear;
-    -o-transition: background 1700ms linear;
-    transition: background 1700ms linear;
-    
 }
+
+.hache.tres.bot {
+    top: -10.6px;
+    width: 34px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: yellow;
+    -moz-transform: scale(1) rotate(80deg) translateX(0px) skewX(20deg);
+    -webkit-transform: scale(1) rotate(80deg) translateX(0px) skewX(20deg);
+    -o-transform: scale(1) rotate(80deg) translateX(0px) skewX(20deg);
+    -ms-transform: scale(1) rotate(80deg) translateX(0px) skewX(20deg);
+    transform: scale(1) rotate(80deg) translateX(0px) skewX(20deg);
+}
+
 
 .cohete {
     border-bottom: 3px solid yellow;
@@ -64,8 +74,8 @@
     -o-transform: rotate(73deg);
     -ms-transform: rotate(73deg);
     transform: rotate(73deg);
-    left: 145px;
-    top: 37px;
+    left: 140px;
+    top: 38.5px;
 }
 .cuerpo {
     border: 3px solid yellow;
@@ -83,18 +93,18 @@
     background-color: black;
     width: 7px;
     height: 8px;
-    border-top-left-radius: 50px;
     position: absolute;
 }
 
 .aleta.uno {
-    top: 20px;
+    border-top-left-radius: 50px;
+    top: 21.4px;
     right: 15;
 }
 .aleta.dos {
-    border-top-right-radius: 50px;
-    top: 20px;
-    left: 14px;
+    border-top-right-radius: 50%;
+    top: 22.7px;
+    left: 14.8px;
 
 }
 
