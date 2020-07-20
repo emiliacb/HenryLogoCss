@@ -1,0 +1,100 @@
+.logo {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: yellow;
+    position: relative;
+    top: 100px;
+    -webkit-transition: background 500ms linear;
+    -moz-transition: background 500ms linear;
+    -ms-transition: background 500ms linear;
+    -o-transition: background 500ms linear;
+    transition: background 500ms linear;
+}
+
+.cuadrado {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.hache {
+    margin-left: 40px;
+    width: 40px;
+    height: 120px;
+    background: black;
+    position: absolute;
+    top: 15px;
+    left: -20;
+}
+
+.hache.dos {
+    left: 50px;
+}
+
+.hache.tres {
+    border: 3px solid yellow;
+    border-top-left-radius: 80%;
+    height: 250px;
+    width: 33px;
+    top: -30px;
+    left: -35px;
+    -moz-transform: scale(1) rotate(85deg) translateX(0px) skewX(20deg);
+    -webkit-transform: scale(1) rotate(85deg) translateX(0px) skewX(20deg);
+    -o-transform: scale(1) rotate(85deg) translateX(0px) skewX(20deg);
+    -ms-transform: scale(1) rotate(85deg) translateX(0px) skewX(20deg);
+    transform: scale(1) rotate(88deg) translateX(0px) skewX(20deg);
+    -webkit-transition: background 1700ms linear;
+    -moz-transition: background 1700ms linear;
+    -ms-transition: background 1700ms linear;
+    -o-transition: background 1700ms linear;
+    transition: background 1700ms linear;
+    
+}
+
+.cohete {
+    border-bottom: 3px solid yellow;
+    width: 35px;
+    height: 34px;
+    position: absolute;
+    overflow: hidden;
+    -moz-transform: rotate(73deg);
+    -webkit-transform: rotate(73deg);
+    -o-transform: rotate(73deg);
+    -ms-transform: rotate(73deg);
+    transform: rotate(73deg);
+    left: 145px;
+    top: 37px;
+}
+.cuerpo {
+    border: 3px solid yellow;
+    width: 17px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    z-index: 20;
+}
+
+.aleta {
+    background-color: black;
+    width: 7px;
+    height: 8px;
+    border-top-left-radius: 50px;
+    position: absolute;
+}
+
+.aleta.uno {
+    top: 20px;
+    right: 15;
+}
+.aleta.dos {
+    border-top-right-radius: 50px;
+    top: 20px;
+    left: 14px;
+
+}
+
