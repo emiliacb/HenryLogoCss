@@ -17,7 +17,7 @@
 	overflow: hidden;
 	width: 200px;
 	height: 250px;
-	left: 40px;
+	left: 45px;
 }
 
 
@@ -26,9 +26,9 @@
 	width: 62px;
 	height: 130px;
 	position: absolute;
-	left: 60px;
+	left: 45px;
 	top: 45px;
-	box-shadow: 115px 0 0 0, 115px 70px 0 0
+	box-shadow: 100px 0 0 0, 100px 70px 0 0
 }
 
 .roquetTail {
