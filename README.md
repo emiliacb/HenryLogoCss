@@ -1,4 +1,2 @@
 # HenryLogoCss
-Práctica en CSS recreando el logo de SoyHenry
-
-Este repo consiste en la práctica que fui realizando para empezar a entender CSS puro.
+Henry Animated Logo in pure CSS https://em3c2.github.io/HenryLogoCss/
