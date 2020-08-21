@@ -8,9 +8,8 @@
 	background-color: yellow;
 	width: 310px;
 	height: 290px;
-	position: absolute;
 	border-radius: 7px;
-	left: 100px;
+	margin: auto;
 }
 
 .container {
