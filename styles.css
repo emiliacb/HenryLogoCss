@@ -13,11 +13,11 @@
 }
 
 .container {
-	position: absolute;
+	margin: auto;
 	overflow: hidden;
 	width: 220px;
 	height: 250px;
-	left: 37px;
+	/*left: 37px;*/
 }
 
 
